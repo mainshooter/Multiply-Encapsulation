@@ -49,14 +49,28 @@
     </ul>
   </div>
   <div class="row">
-    <div class="col-6">
+    <form class="col-6">
+      <div>
+        <label>Number1: </label>
+        <input type="number" name="firstNumber" />
+      </div>
 
-    </div>
+      <div>
+        <label>Number2: </label>
+        <input type="number" name="secondNumber">
+      </div>
+
+      <button type="button" id="multiply">Multiply</button>
+
+      <div id="result"></div>
+    </form>
   </div>
 
   <div class="footer">
     <h1>&copy; Peter Romijn</h1>
   </div>
-
+  <script>
+    multiplyModule();
+  </script>
   </body>
 </html>
