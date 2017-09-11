@@ -39,7 +39,7 @@ function multiplyModule() {
 
 /**
  * Selects one element
- * @param  {[stirng]} element [The selector for the element]
+ * @param  {[string]} element [The selector for the element]
  * @return {[DOM]}         [The selected element]
  */
 function select(element) {
